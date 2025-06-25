@@ -6,7 +6,6 @@
 3. [Technologies](#technologies)
 4. [Installation](#installation)
 5. [Usage](#usage)
-6. [Screenshots](#screenshots)
 
 ## Description
 
