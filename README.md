@@ -93,19 +93,3 @@ Green Thumb Intelligence is a full-stack MERN application designed to help plant
    cd client
    npm start
    ```
-
-
-## Screenshots
-
-![Dashboard Preview](/client/src/assets/screenshots/dashboard.png)
-*Plant dashboard showing user's collection*
-
-![Profile Preview](/client/src/assets/screenshots/profile.png)
-*User profile with friend system*
-
-![Plant Detail Preview](/client/src/assets/screenshots/plant-detail.png)
-*Detailed plant care information*
-
----
-
-**Happy Planting!** 🌱
