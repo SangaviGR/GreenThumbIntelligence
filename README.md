@@ -1,94 +1,120 @@
-# Green Thumb Intelligence - Plant Care Application
+# 🌿 Green Thumb Intelligence - Plant Care Application
 
-## Table of Contents
+## 📚 Table of Contents
+
 1. [Description](#description)
 2. [Features](#features)
 3. [Technologies](#technologies)
 4. [Installation](#installation)
 5. [Usage](#usage)
 
-## Description
+---
 
-Green Thumb Intelligence is a full-stack MERN application designed to help plant enthusiasts track and manage their plant collections. The application provides:
+## 📝 Description
 
-- Personalized plant care tracking
-- Community features to connect with other plant lovers
-- AI-powered plant identification (future enhancement)
-- Care reminders and notifications
+**Green Thumb Intelligence** is a full-stack **MERN** application tailored for plant enthusiasts to track, manage, and share their plant care routines. The platform combines intelligent plant care with social features to build a connected plant-loving community. Key capabilities include:
 
-## Features
+* Add and manage personal plant collections
+* Assess plant health and identify species using the **Plant.id API**
+* Search plant details and care instructions
+* Record and monitor plant care history (watering, fertilizing, etc.)
+* Find friends, create posts, and engage with the plant community
 
-### Current Features
-- User authentication (signup/login)
-- Plant profile creation and management
-- Care history tracking (watering, fertilizing, etc.)
-- Friend system and community sharing
-- Responsive design for all devices
+---
 
-### Planned Features
-- Image recognition for plant identification
-- Push notifications for care reminders
-- Plant disease diagnosis assistance
-- Seasonal care recommendations
+## 🚀 Features
 
-## Technologies
+* 🔐 User authentication (signup/login) with JWT
+* 🌱 Add, view, and manage plant profiles
+* 📷 Plant health assessment and identification via **Plant.id API**
+* 🔍 Search plant information by image or text
+* 📘 Track and update plant care history
+* 👥 Friend system to connect with other users
+* 🗨️ Create and interact with posts in a plant-sharing community
+* 📱 Fully responsive design for all device sizes
 
-### Frontend
-- React.js
-- Material-UI (MUI)
-- Apollo Client
-- GraphQL
-- JWT Authentication
+---
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose ODM
-- GraphQL
-- JSON Web Tokens
+## 🛠️ Technologies
 
-### APIs
--  Plant.id API
-- (Future) Weather API for localized care recommendations
+### 🔹 Frontend
 
-## Installation
+* React.js
+* Material-UI (MUI)
+* Apollo Client
+* GraphQL
+* JWT Authentication
+
+### 🔸 Backend
+
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose ODM
+* GraphQL
+* JSON Web Tokens (JWT)
+
+### 🌐 External APIs
+
+* [Plant.id API](https://web.plant.id/) – for plant identification and health assessment
+
+---
+
+## ⚙️ Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/SangaviGR/Green-Thumb-Intelligence.git
    cd Green-Thumb-Intelligence
    ```
 
-2. Install dependencies for both client and server:
+2. Install dependencies:
+
    ```bash
    cd client && npm install
    cd ../server && npm install
    ```
 
-3. Set up environment variables:
-   - Create a `.env` file in the server directory with:
-     ```
-     SECRET_KEY=your-secret-key
-     MONGODB_URI=your-mongodb-connection-string
-     ```
+3. Set up environment variables in the `server/.env` file:
 
+   ```
+   SECRET_KEY=your-secret-key
+   MONGODB_URI=your-mongodb-connection-string
+   ```
 
-## Usage
+---
 
-1. Start the development server:
+## ▶️ Usage
+
+1. Start the backend server:
+
    ```bash
    cd server
    npm start
    ```
 
-2. The application will be available at:
-   ```
-   http://localhost:3000
-   ```
+2. In a separate terminal, start the frontend:
 
-3. For production build:
    ```bash
    cd client
    npm start
    ```
+
+3. Visit the app at:
+
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🌟 Summary
+
+Green Thumb Intelligence empowers plant lovers to:
+
+* Record and monitor their plant’s growth journey
+* Identify plant species and access care info via **Plant.id API**
+* Build a social network around plant care and wellness
+
+---
